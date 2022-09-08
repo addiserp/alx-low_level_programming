@@ -1,0 +1,3 @@
+#!/bin/bash
+CFILE='./c'
+echo -e "#include <stdio.h>\n\n" "/**\n" "* main  - Entry point\n *\n * Return: Always 0 (Success)\n */\n int main(void)\n{\n" "    return (0);\n\n}"  > $CFILE
