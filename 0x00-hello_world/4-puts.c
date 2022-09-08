@@ -6,7 +6,7 @@
 
  *
 
- * Description:this is the fist c program
+ * Description: this is the main fist c program
 
  * this program puts "Programming is like building a multilingual puzzle
 
