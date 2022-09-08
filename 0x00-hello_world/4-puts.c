@@ -2,9 +2,15 @@
 
 /**
 
- * main - Entry print 
+ * main - enrty point
 
- * Return: Always 0 (Success)
+ *
+
+ * Description:this is the fist c program
+
+ * this program puts "Programming is like building a multilingual puzzle
+
+ * Return: is alwasys 0
 
  */
 
