@@ -18,8 +18,7 @@ for (d = 10; d <= 19; d++)
 /*e = d + 1;*/
 for (e = 10; e <= 19; e++)
 {
-f = e;
-for (; f <= 19; f++)
+for (f = 11; f <= 19; f++)
 {
 putchar(c % 10 + '0');
 putchar(d % 10 + '0');
