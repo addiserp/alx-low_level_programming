@@ -18,7 +18,7 @@ for (; d <= 19; d++)
 putchar(c % 10 + '0');
 putchar(d % 10 + '0');
 
-if (c <= 18 && d <= 19)
+if (c <= 18 && d <= 19 && !(c == 18 && d == 19))
 {
 putchar(',');
 putchar(' ');
