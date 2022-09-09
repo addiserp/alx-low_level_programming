@@ -10,9 +10,9 @@
 int main(void)
 {
 int c;
-for (c = 10; c < 20; c++)
+for (c = 10; c <= 19; c++)
 {
-putchar(c%10 + '0');
+putchar(c % 10 + '0');
 putchar(',');
 putchar(' ');
 }
