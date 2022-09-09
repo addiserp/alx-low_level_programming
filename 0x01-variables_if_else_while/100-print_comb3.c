@@ -12,13 +12,13 @@ int main(void)
 int c, d;
 for (c = 10; c <= 19; c++)
 {
-d=c+1;
+d = c+1;
 for (; d <= 19; d++)
 {
 putchar(c % 10 + '0');
 putchar(d % 10 + '0');
 
-if (c <= 18)
+if (c <= 18 && d <= 19)
 {
 putchar(',');
 putchar(' ');
