@@ -9,9 +9,14 @@
  */
 int main(void)
 {
-  int x;
-  for (x = 'a'; x <= 'Z'; x++)
-    putchar(x);
-  putchar('\n');
-  return (0);
+int x;
+for (x = 'a'; x <= 'Z'; x++)
+{
+if (x < 92)
+putchar(tolower(x));
+else
+putchar(x);
+}
+putchar('\n');
+return (0);
 }
