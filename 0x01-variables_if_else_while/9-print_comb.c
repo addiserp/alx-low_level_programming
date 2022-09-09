@@ -13,8 +13,11 @@ int c;
 for (c = 10; c <= 19; c++)
 {
 putchar(c % 10 + '0');
+if (c <= 18)
+{
 putchar(',');
 putchar(' ');
+}
 }
 putchar('\n');
 return (0);
