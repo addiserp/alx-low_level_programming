@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-int c, d;
+int c, d, e;
 for (c = 10; c <= 19; c++)
 {
 d = c + 1;
