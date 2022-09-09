@@ -12,10 +12,10 @@ int main(void)
   int x,y;
 for (x = 'A'; x <= 'z'; x++)
 {
-if (x <= 91)
-y = x + 65;
+if (x <= 90)
+y = x + 32;
 else
-y = x - 65;
+y = x - 32;
 putchar(y);
 }
 putchar('\n');
