@@ -13,8 +13,7 @@ int x;
 for (x = 'a'; x <= 'Z'; x++)
 {
 if (x < 92)
-putchar(tolower(x));
-else
+x=tolower(x);
 putchar(x);
 }
 putchar('\n');
