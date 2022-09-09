@@ -9,12 +9,12 @@
  */
 int main(void)
 {
-int x,y;
+int x, y;
 for (x = 'A'; x <= 'z'; x++)
 {
 if (x < 91)
 y = x + 32;
-else if (x == 91) 
+elseif (x == 91) 
 {
 x += 6;
 y = x - 32;
