@@ -10,7 +10,7 @@
 int main(void)
 {
 int c, d;
-for (c = 10; c <= 19; c++)
+for (c = 11; c <= 19; c++)
 {
 d=c+1;
 for (; d <= 19; d++)
