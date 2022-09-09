@@ -4,14 +4,16 @@
  * main - entry point
  *
  * Description: this is the main function program
- * this uses putchar and prints only z -a 
+ * this uses putchar and prints only a-  z base 16
  * Return: is always 0
  */
 int main(void)
 {
-int x;
-for (x = 122; x >= 97; x--)
-putchar(x);
+char c;
+for (c = '0'; c <= '9'; c++)
+{
+putchar(c);
+}
 putchar('\n');
 return (0);
 }
