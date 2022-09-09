@@ -26,7 +26,7 @@ putchar(d % 10 + '0');
 putchar(' ');
 putchar(e % 10 + '0');
 putchar(f % 10 + '0');
-if (c <= 18 && d <= 19 && !(c == 17 && d == 18 && e == 19))
+if (c <= 18 && d <= 19 && !(c == 18 && d == 18 && e == 19 && f == 19))
 {
 putchar(',');
 putchar(' ');
