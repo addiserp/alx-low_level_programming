@@ -9,14 +9,14 @@
  */
 int main(void)
 {
-int x;
+  int x,y;
 for (x = 'A'; x <= 'z'; x++)
 {
-if (x < 92)
-x += 65;
+if (x <= 91)
+y = x + 65;
 else
-x -= 65;
-putchar(x);
+y = x - 65;
+putchar(y);
 }
 putchar('\n');
 return (0);
