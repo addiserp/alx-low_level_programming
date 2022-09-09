@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/** 
- * main  - entry point
+/**
+ * main - entry point
  *
  * Description: this is the main function program
  * this program uses if else stat random
