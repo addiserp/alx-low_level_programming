@@ -14,7 +14,7 @@ for (x = 'A'; x <= 'z'; x++)
 {
 if (x < 91)
 y = x + 32;
-else if (x == 91) 
+else if (x == 92) 
 x += 5;
 else
 y = x - 32;
