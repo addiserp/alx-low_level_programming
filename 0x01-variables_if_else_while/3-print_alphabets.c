@@ -15,7 +15,7 @@ for (x = 'A'; x <= 'z'; x++)
 if (x < 91)
 y = x + 32;
 else if (x == 91) 
-x += 6;
+x += 7;
 else
 y = x - 32;
 putchar(y);
