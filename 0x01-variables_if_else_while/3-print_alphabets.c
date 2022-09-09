@@ -12,7 +12,7 @@ int main(void)
 int x,y;
 for (x = 'A'; x <= 'z'; x++)
 {
-if (x <= 90)
+if (x < 90)
 y = x + 32;
 else if (x == 91) 
 x += 5;
