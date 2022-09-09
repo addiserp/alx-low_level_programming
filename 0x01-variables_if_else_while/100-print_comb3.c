@@ -12,7 +12,8 @@ int main(void)
 int c, d;
 for (c = 10; c <= 19; c++)
 {
-for (d = 11; d <= 19; d++)
+d++;
+for (d = 10; d <= 19; d++)
 {
 putchar(c % 10 + '0');
 putchar(d % 10 + '0');
