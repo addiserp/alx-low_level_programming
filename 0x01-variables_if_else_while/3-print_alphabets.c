@@ -10,9 +10,11 @@
 int main(void)
 {
 int x;
-for (x = 'a'; x <= 'Z'; x++)
+for (x = 'A'; x <= 'z'; x++)
 {
 if (x < 92)
+x += 65;
+else
 x -= 65;
 putchar(x);
 }
