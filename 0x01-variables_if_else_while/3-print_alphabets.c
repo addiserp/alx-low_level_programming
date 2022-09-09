@@ -16,6 +16,7 @@ if (x < 91)
 y = x + 32;
 else if (x == 91) 
 x += 7;
+y=x;
 else
 y = x - 32;
 putchar(y);
