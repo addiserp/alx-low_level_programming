@@ -1,5 +1,5 @@
 #include "main.h"
-#include "_putchar.c"
+
 /**
  * main - entry point
  *
@@ -13,8 +13,8 @@ char xa[] = {'_','p','u','t','c','h','a','r','\0'};
 int i;
 for(i=0;i<8;i++)
 {
-putchar(_putchar(xa[i]));
+_putchar(xa[i]);
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
