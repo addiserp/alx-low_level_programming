@@ -1,9 +1,9 @@
 #include "main.h"
- 
+
  /**
  * main - entry point
  * Description: print_alphabet print alphabet 
- * print from a - z 
+ * print from a - z
  * Return: is void
  */
 void print_alphabet(void)
