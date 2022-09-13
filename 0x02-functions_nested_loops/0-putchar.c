@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-char xa[7]="_putchar";
+char xa[]="_putchar";
 int i;
 for(i=0;i<7;i++)
 _putchar(xa[i]);
