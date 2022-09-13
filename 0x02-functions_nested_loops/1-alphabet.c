@@ -2,7 +2,6 @@
  
  /**
  * main - entry point
- *
  * Description: print_alphabet print alphabet 
  * print from a - z 
  * Return: is void
