@@ -7,9 +7,9 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int print_alphabet()
+void print_alphabet(void)
 {
 int x;
 for (x = 'a'; x <= 'z'; x++)
-return (write(1, &c,1));
+_putchar(x);
 }
