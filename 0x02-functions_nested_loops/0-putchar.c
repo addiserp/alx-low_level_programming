@@ -9,13 +9,11 @@
  */
 int main(void)
 {
-char xa[]="_putchar";
+char xa[] = {'_','p','u','t','c','h','a','r','\0'};
 int i;
-char p;
-for(i=0;i<7;i++)
+for(i=0;i<8;i++)
 {
-p=_putchar(xa[i]);
-putchar(p);
+putchar(_putchar(xa[i]));
 }
 putchar('\n');
 return (0);
