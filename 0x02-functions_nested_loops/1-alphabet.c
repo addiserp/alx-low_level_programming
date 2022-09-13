@@ -8,6 +8,7 @@
  /* Description: print_alphabet print alphabet */
 void print_alphabet(void)
 {
+ /* Description: print_alphabet print alphabet */
 int x;
 for (x = 'a'; x <= 'z'; x++)
 _putchar(x);
