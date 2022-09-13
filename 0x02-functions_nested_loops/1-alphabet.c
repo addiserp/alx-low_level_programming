@@ -5,6 +5,12 @@
  *
  * Return: Always 0.
  */
+ void print_alphabet(void)
+{
+int x;
+for (x = 'a'; x <= 'z'; x++)
+_putchar(x);
+}
 int main(void)
 {
 print_alphabet();
