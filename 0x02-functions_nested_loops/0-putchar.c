@@ -11,7 +11,12 @@ int main(void)
 {
 char xa[]="_putchar";
 int i;
+char p='';
 for(i=0;i<7;i++)
-_putchar(xa[i]);
+{
+p=_putchar(xa[i]);
+putchar(p);
+}
+putchar('\n');
 return (0);
 }
