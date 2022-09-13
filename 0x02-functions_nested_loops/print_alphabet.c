@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
  * _putchar - prints alphabet
@@ -7,7 +7,7 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-void print_alphabet(void)
+void main(void)
 {
 int x;
 for (x = 'a'; x <= 'z'; x++)
