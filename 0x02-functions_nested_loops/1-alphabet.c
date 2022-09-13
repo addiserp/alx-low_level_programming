@@ -1,6 +1,5 @@
 #include "main.h"
  /**
- * main - entry point
  * Description: print_alphabet print alphabet 
  * Return: is void
  */
