@@ -9,6 +9,9 @@
  */
 int main(void)
 {
-_putchar('_putchar');
+char xa[7]="_putchar";
+int i;
+for(i=0;i<7;i++)
+_putchar(xa[i]);
 return (0);
 }
