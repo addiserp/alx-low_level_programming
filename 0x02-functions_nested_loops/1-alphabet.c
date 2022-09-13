@@ -5,9 +5,9 @@
  * Description: this is the main function program
  * Return: is void
  */
+ /* Description: print_alphabet print alphabet */
 void print_alphabet(void)
 {
- /* Description: print_alphabet print alphabet */
 int x;
 for (x = 'a'; x <= 'z'; x++)
 _putchar(x);
