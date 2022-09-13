@@ -6,7 +6,7 @@
  * Return: is void
  */
  /* Description: print_alphabet print alphabet */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
  /* description: print_alphabet print alphabet */
 int x,y;
