@@ -13,7 +13,7 @@ char xa[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\0'};
 int i;
 for(i = 0; i < 8; i++)
 {
-_putchar(xa[i]);
+_putchar (xa[i]);
 }
 _putchar('\n');
 return (0);
