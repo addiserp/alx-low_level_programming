@@ -11,7 +11,7 @@ int main(void)
 {
 char xa[]="_putchar";
 int i;
-char p='';
+char p;
 for(i=0;i<7;i++)
 {
 p=_putchar(xa[i]);
