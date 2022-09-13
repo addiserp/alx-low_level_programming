@@ -2,7 +2,8 @@
 
 /**
  * main - check the code
- *
+ * Main: is print_alphabet 
+ * Description: Prints alphabet
  * Return: Always 0.
  */
 void print_alphabet(void)
@@ -12,4 +13,3 @@ for (x = 'a'; x <= 'z'; x++)
 _putchar(x);
 _putchar('\n');
 }
- 
