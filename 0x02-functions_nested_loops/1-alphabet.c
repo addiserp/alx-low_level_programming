@@ -1,10 +1,11 @@
 #include "main.h"
-
-/**
- * main - check the code
- * Main: is print_alphabet 
- * Description: Prints alphabet
- * Return: Always 0.
+ 
+ /**
+ * main - entry point
+ *
+ * Description: print_alphabet print alphabet 
+ * print from a - z 
+ * Return: is void
  */
 void print_alphabet(void)
 {
