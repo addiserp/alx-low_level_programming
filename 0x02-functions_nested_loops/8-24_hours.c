@@ -2,7 +2,6 @@
 /**
  * jack_bauer - function day of minites
  * Description: print 24h in minite
- *@x: is used for input parameter
  * Return: void
  */
 void jack_bauer(void)
