@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
 *main - prints multiples result count
-* @x: is a int variable forloop
-* @result: is sum of xs
-*Return: return 0
+ *Return: return 0
 */
 int main(void)
 {
