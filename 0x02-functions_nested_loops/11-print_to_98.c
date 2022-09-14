@@ -1,23 +1,23 @@
 #include "main.h"
-#include <stdio.h>
- /**
- * main - entry point
- * print_to_98: print_alphabet print 98
- * Description: this is the main function program
- *@n: input parameter
- * Return: is void
+#include "main.h"
+/**
+ * print_to_98 - function for upto 98
+ * Description: prints natural no to 98
+ * @x: parameter no 1
+ * Return: void
  */
- void print_to_98(int n)
- {
-	if (n > 99)
+void print_to_98(int x)
+{
+	if (x >= 98)
 	{
-		while (n > 98)
-			printf("%d, ", n--);
+		while (x > 98)
+			printf("%d, ", x--);
+		printf("%d\n", x);
 	}
 	else
 	{
-		while (n < 98)
-			printf("%d, ", n++);
-			printf("%d\n", n);
+		while (x < 98)
+			printf("%d, ", x++);
+		printf("%d\n", x);
 	}
- }
+}
