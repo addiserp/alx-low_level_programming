@@ -1,14 +1,12 @@
 #include "main.h"
- /**
- * times_table: prints time table
- * @x: is int variable
- * @y: is int variable
- * @y: is int variable
- * Return: is void
- * times_table - print 9 multiples
-*/
+/**
+ * times_table - function for time table 9
+ * Description: prints 9 times table
+ * Return: void
+ */
 void times_table(void)
 {
+
 	int x, y, z;
 	for (x = 0; x < 10; x++)
 	{
