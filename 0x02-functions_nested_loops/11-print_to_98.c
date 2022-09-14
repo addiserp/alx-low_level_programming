@@ -11,13 +11,13 @@
  {
 	if (n > 99)
 	{
-		for (;n > 98;n--)
-			printf("%d, ", n);
+		while (n > 98)
+			printf("%d, ", n--);
 	}
 	else
 	{
-		for (;n < 98;n++)
-			printf("%d, ", n);
+		while (n < 98)
+			printf("%d, ", n++);
 			printf("%d\n", n);
 	}
  }
