@@ -12,11 +12,3 @@ int _isalpha(int x)
 	else
 		return (0);
 }
-int main(void)
-{
-	int r;
-	r = _isalpha('H');
-	_putchar(r + '0');
-	_putchar('\n');
-	return (0);
-}
