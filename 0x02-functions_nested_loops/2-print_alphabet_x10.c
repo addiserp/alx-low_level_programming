@@ -1,8 +1,8 @@
 #include "main.h"
  /**
- * main - entry point
+ * print_alphabet_x10 - entry point
  * Description: print_alphabet print alphabet 10 times
- * Description: this is the main function program
+ * print_alphabet_x10: this is the main function program
  * Return: is void
  */
  /* print_alphabet_x10: print_alphabet print alphabet */
