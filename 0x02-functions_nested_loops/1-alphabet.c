@@ -2,7 +2,7 @@
  /**
  * main - entry point
  * Description: print_alphabet print alphabet
- * Description: this is the main function program
+ * print_alphabet : this is the main function program
  * Return: is void
  */
  /* Description: print_alphabet print alphabet */
