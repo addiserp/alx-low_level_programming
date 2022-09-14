@@ -1,19 +1,19 @@
 #include "main.h"
  /**
- * Description: prints time table
+ * times_table: prints time table
  * @x: is int variable
  * @y: is int variable
  * @y: is int variable
  * Return: is void
- * times_table: print 9 multiples
+ * times_table - print 9 multiples
 */
 void times_table(void)
 {
 	int x, y, z;
-	for (x = 0;x < 10;x++)
+	for (x = 0; x < 10; x++)
 	{
 		_putchar('0');
-			for (y = 1;y < 10;y++)
+			for (y = 1; y < 10; y++)
 			{
 				_putchar(',');
 				_putchar(' ');
