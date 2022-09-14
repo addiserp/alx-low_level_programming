@@ -6,7 +6,7 @@
  * description - print_alphabet print alphabet
  * Return: is void
  */
-void print_alphabet(void)   
+void print_alphabet(void)
 {
 
 int x;
