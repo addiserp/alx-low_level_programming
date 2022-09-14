@@ -5,7 +5,7 @@
  * Description: this is the main function program
  * Return: is void
  */
- /* Description: print_alphabet print alphabet */
+ /* print_alphabet_x10: print_alphabet print alphabet */
 void print_alphabet_x10(void)
 {
  /* description: print_alphabet print alphabet */
