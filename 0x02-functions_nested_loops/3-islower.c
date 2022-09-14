@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * _islower - function started here
- * Description: check the alphabet is islower
- * @x: is used for input parameter
- * Return:0
+ * _islower - checks is it lower
+ * @x : input parameter
+ * Return: is result
  */
 int _islower(int x)
 {
