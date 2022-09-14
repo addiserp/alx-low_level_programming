@@ -1,6 +1,7 @@
 #include "main.h"
  /**
- * add - function for add two integers
+ * add - a function for addition two integers
+ * add : for add two integers
  * Description : adds two integers
  * Return: is 0
  */
