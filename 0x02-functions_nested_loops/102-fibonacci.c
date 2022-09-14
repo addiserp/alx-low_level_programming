@@ -13,7 +13,7 @@ n3 = n1 + n2;
 printf("%lu", n3);
 n1 = n2;
 n2 = n3;
-if (inc == 49)
+if (c == 49)
 printf("\n");
 else
 printf(", ");
