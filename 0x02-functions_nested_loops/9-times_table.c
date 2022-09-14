@@ -1,10 +1,11 @@
 #include "main.h"
  /**
- * main - entry point
- * Description: print_alphabet print alphabet 10 times
- * Description: this is the main function program
+ * Description: prints time table
+ * @x: is int variable
+ * @y: is int variable
+ * @y: is int variable
  * Return: is void
- * times_table: print_alphabet print alphabet
+ * times_table: print 9 multiples
 */
 void times_table(void)
 {
