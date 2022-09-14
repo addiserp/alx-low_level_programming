@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
  /**
  * main - entry point
  * print_to_98: print_alphabet print 98
