@@ -3,6 +3,6 @@
 
 int _putchar(char);
 int _islower(int);
-int _isupper(int x);
-
+int _isupper(int);
+int _isdigit(int);
 #endif
