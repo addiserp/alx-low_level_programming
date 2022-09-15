@@ -7,14 +7,15 @@
  * @ch: The character to print
  * Return: always zero
  */
+/*description - _putchar a function */
 int _putchar(char ch)
 {
-/* Description: this function prints char */
+/* description - this function prints char */
 return (write(1, &ch, 1));
 }
 int _isupper(int x)
 {
-/* Description: this function compares chars */
+/* description - this function compares chars */
 	if (x >= 'A' && x <= 'Z')
 	return (1);
 	else
@@ -23,11 +24,12 @@ int _isupper(int x)
 int main(void)
 {
 	char c;
+
 	c = 'A';
 	int result;
 
 	result = _isupper(c);
-	
+
 	if (result == 1)
 	_putchar('1');
 	else
@@ -35,4 +37,3 @@ int main(void)
 
 	return (0);
 }
-
