@@ -1,19 +1,20 @@
 #include "main.h"
+#include <unistd.h>
 /**
  * main  - check if char is upper alphabet
- * Description: adds a + b
- * @c: parameter sample
-  * _putchar - writes the character c to stdout
+ * _putchar - writes the character c to stdout
+ * _isupper - checks if it is upper case letter
  * @ch: The character to print
  * Return: always zero
  */
-  */
 int _putchar(char ch)
 {
+/* Description: this function prints char */
 return (write(1, &ch, 1));
 }
 int _isupper(int x)
 {
+/* Description: this function compares chars */
 	if (x >= 'A' && x <= 'Z')
 	return (1);
 	else
@@ -24,7 +25,9 @@ int main(void)
 	char c;
 	c = 'A';
 	int result;
+
 	result = _isupper(c);
+	
 	if (result == 1)
 	_putchar('1');
 	else
