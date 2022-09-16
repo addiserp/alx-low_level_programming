@@ -3,6 +3,8 @@
 
 /**
  *more_numbers - prints numbers to 14 10 times
+ *@x:var 1
+ *@y:var 2
  *Return: returns void
 */
 
