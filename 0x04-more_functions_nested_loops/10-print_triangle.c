@@ -7,7 +7,7 @@
 *Return: returns void
 */
 
-void print_triangle(int size)
+void print_triangle(int s)
 {
 	int i1, i2;
 
