@@ -8,7 +8,7 @@
 
 void more_numbers(void)
 {
-	int x1, y;
+	int x, y;
 
 	for (x = 0; x < 10; x++)
 	{
@@ -20,6 +20,6 @@ void more_numbers(void)
 			}
 			putchar((y % 10) + '0');
 		}
-		putchar(10);
+		putchar('\n');
 	}
 }
