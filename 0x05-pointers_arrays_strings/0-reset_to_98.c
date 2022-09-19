@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * _isupper - check if char is upper alphabet
- *@x: char parameter
- * _isupper: checks if it is upper case letter
- * Return: zero or one
+ * reset_to_98 - update n to 98
+ *@n: char parameter
+ * Return: nothing
  */
 
-void reset_to_98(int *n)
+void reset_to_98 (int *n)
 {
-	return (*n = 98);
+	*n = 98;
 }
