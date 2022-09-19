@@ -14,9 +14,9 @@ void print_rev(char *str)
 	{
 	size++;
 	}
-	while (0 =< size-1)
+	while (0 =< size)
 	{
-	_putchar(*(str + size));
+	_putchar(*(str + size-1));
 	size--;
 	}
 	_putchar('\n');
