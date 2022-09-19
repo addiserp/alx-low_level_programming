@@ -6,7 +6,7 @@
  * Return: returns nothing
  */
 
-void puts_half(char *str);
+void puts_half(char *str)
 {
 	int size = 0, s = 0;
 	int hsize;
