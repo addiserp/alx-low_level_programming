@@ -16,11 +16,11 @@ void rev_string(char *str)
 	size++;
 	}
 
-	while (s <= size)
+	while (s <= size + 1)
 	{
 	temp = *(str + s);
-	*(str + s) = *(str + size);
-	*(str + size) = temp;
+	*(str + s) = *(str + size - 1);
+	*(str + size - 1) = temp;
 	size--;
 	s++;
 	}
