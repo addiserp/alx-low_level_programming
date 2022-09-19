@@ -1,12 +1,14 @@
 #include "main.h"
-
 /**
- * _strlen - prints the size of string
+ * _strlen - gives the size of string
  *@s: char parameter
  * Return: returns s size
  */
 
 int _strlen(char *s)
 {
-	return (sizeof(*s));
+	int size = 0;
+	while (*(s + size) != '\0')
+	size++;
+	return (size);
 }
