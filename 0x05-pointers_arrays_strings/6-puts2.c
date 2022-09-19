@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts2 - prints the every other  string
+ * puts2 - prints the every other  string
  *@str: char parameter
  * Return: returns nothing
  */
