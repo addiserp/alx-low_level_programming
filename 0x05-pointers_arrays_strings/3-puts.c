@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _puts - prints the a string
  *@s: char parameter
@@ -10,6 +11,6 @@ void _puts(char *str)
 	int s = 0;
 
 	while (*(str + s) != '\0')
-	stdout("%c", str + s)
+	putchar("%c", str + s)
 
 }
