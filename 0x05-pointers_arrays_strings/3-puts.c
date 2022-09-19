@@ -2,7 +2,7 @@
 
 /**
  * _puts - prints the a string
- *@s: char parameter
+ *@str: char parameter
  * Return: returns nothing
  */
 
