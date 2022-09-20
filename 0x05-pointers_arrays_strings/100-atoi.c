@@ -22,7 +22,7 @@ int _atoi(char *s)
 	{
 		if (*(s + i) == 45)
 			sign = 1;
-		else if (*(s + i) == 43)
+		else if (*(s + i) == 43 || *(s + i) == 32)
 			sign = 0;
 		else if (*(s + i) >= 48 && *(s + i) <= 57)
 		{
