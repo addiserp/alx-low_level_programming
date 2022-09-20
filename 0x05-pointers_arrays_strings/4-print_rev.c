@@ -9,14 +9,15 @@
 void print_rev(char *str)
 {
 	int size = 0;
-
+	int x = 0;
 	while (*(str + size) != '\0')
 	{
 	size++;
 	}
-	while (size - 1 >= 0)
+	size--;
+	while (x <= size)
 	{
-	_putchar(*(str + size - 1));
+	_putchar(*(str + size));
 	size--;
 	}
 	_putchar('\n');
