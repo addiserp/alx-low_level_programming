@@ -23,7 +23,10 @@ int _atoi(char *s)
 		if (*(s + i) == 45)
 			sign = 1;
 		else if (*(s + i) >= 48 && *(s + i) <= 57)
-			val *= 10 + (*(s + i) - 48);
+		{
+			val *= 10;
+			val = val + (*(s + i) - 48);
+		}
 	}
 		if (sign == 1)
 			val *= -1;
