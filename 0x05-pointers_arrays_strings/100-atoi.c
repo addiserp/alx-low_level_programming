@@ -20,10 +20,10 @@ int _atoi(char *s)
 
 	for (i = 0; i < size; i++)
 	{
-		if ((*s + i) == '-')
+		if (*(s + i) == '-')
 			sign = 1;
-		else if ((*s + i) >= 0 && (*s + i) <= 9)
-			val *= 10 + (*s + i);
+		else if (*(s + i) >= 0 && *(s + i) <= 9)
+			val *= 10 + *(s + i);
 	}
 		if (sign == 1)
 			val *= -1;
