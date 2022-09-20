@@ -22,14 +22,15 @@ int _atoi(char *s)
 	{
 		if (*(s + i) == 45)
 			sign = 1;
+		if (*(s + i) == 43)
+			sign = 0;
 		else if (*(s + i) >= 48 && *(s + i) <= 57)
 		{
 			val *= 10;
 			val = val + (*(s + i) - 48);
 		}
 		else if (*(s + i) <= 48 && *(s + i) >= 57)
-			sign = 0;
-	}
+		}
 		if (sign == 1)
 			val *= -1;
 	return (val);
