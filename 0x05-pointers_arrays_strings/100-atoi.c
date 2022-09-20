@@ -27,6 +27,8 @@ int _atoi(char *s)
 			val *= 10;
 			val = val + (*(s + i) - 48);
 		}
+		else if (*(s + i) <= 48 && *(s + i) >= 57)
+			sign = 0;
 	}
 		if (sign == 1)
 			val *= -1;
