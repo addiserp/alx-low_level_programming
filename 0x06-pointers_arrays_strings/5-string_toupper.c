@@ -5,13 +5,14 @@
  *@x: is used for input parameter
  * Return:0
  */
-char *string_toupper(char *str)
+char *string_toupper(char *x)
 {
 	int i = 0;
-	while (*(str + i) != '\0')
+	while (*(x + i) != '\0')
 	{
-	if (x >= 'A' && x <= 'z' && !(x > 92 && x < 97))
-		*(str + i) += 32;
- 	}
-	retutn (str);
+	if ( (*(x + i) >= 'a' && *(x + i) <= 'z'))
+        *(x + i) -= 32;
+        i++;
+    }
+	return (x);
 }
