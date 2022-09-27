@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * print_chessboard - Prints a chessboard for.
- * @a: value chessboard to be printed.
+ *print_chessboard - Prints a chessboard for.
+ *@a: value chessboard to be printed.
  */
- 
- void print_chessboard(char (*a)[8])
- {
+
+void print_chessboard(char (*a)[8])
+{
 	int indx1, indx2;
 	for (indx1 = 0; a[indx1][7]; indx1++)
 	{
