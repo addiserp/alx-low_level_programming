@@ -1,4 +1,4 @@
-#include "main.h" 
+#include "main.h"
 
 /**
  * _memset - that fills memory with a constant byte
@@ -9,9 +9,9 @@
  * Return: void.
  */
 
-void *_memset(void *s, int c, size_t n)
+char *_memset(char *s, char c, unsigned int n)
 {
-int i;
+long unsigned int i;
 char *mem = s, val = c;
 
 for (i = 0; i < n; i++)
