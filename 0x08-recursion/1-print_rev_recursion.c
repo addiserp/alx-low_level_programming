@@ -11,8 +11,7 @@ void _print_rev_recursion(char *s)
 	int i, size = 0;
 	char temp;
 
-		for (i = 0; *(s + i) != '\0'; i++)
-			size ++;
+	   _size(*s,&size);
 
 		for (i = 0; *(s + i) != '\0'; i++)
 		{
@@ -42,3 +41,10 @@ _putchar('\n');
 }
 }
 
+void _size(char *s,int *size)
+{
+if (*(s) != '\0')
+{
+*size++;
+_size(*s,&size);
+}
