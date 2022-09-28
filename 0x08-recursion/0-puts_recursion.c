@@ -17,5 +17,8 @@ _putchar('\n');
 }
 _puts_recursion(s += 1);
 }
-
+if (*(s) == '')
+{
+_putchar('\n');
+}
 }
