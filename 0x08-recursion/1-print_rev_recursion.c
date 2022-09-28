@@ -45,7 +45,7 @@ void _size(char *s,int *size)
 {
 if (*(s) != '\0')
 {
-*size++;
-_size(*s,&size);
+*size += 1;
+_size(*s, &size);
 }
 }
