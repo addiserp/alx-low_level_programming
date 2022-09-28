@@ -4,6 +4,7 @@
  *_sqrt_recursion - Returns the natural square root of a number
  *@n: number no.
  *description _sqrt_recursion: recursiv 1
+ *description fsqrt: Finds the natural square 2
  * Return: value.
  */
 
