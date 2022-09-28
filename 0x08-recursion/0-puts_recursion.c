@@ -16,6 +16,6 @@ _puts_recursion(s += 1);
 if (*(s) == '\0')
 {
 _putchar('\n');
-exit;
+return;
 }
 }
