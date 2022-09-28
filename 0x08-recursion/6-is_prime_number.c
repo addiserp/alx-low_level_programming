@@ -12,5 +12,5 @@ int is_prime_number(int n)
 	return (0);
 	if (2 == n / 2)
 	return (1);
-	return (is_prime_number(n, 2 + 1));
+	return (is_prime_number(n - 1));
 	}
