@@ -15,8 +15,6 @@ int main(int argc, char *argv[])
 	int reminder = 0, value = 0, count = 0;
 	if (argc == 2)
 		{
-			for (i = 1; i < argc; i++)
-			{
 				value = atoi(argv[i]);
 				if (value < 0)
 				{
@@ -25,15 +23,15 @@ int main(int argc, char *argv[])
 				}
 				else if (isdigit(*argv[i]))
 				{
-					if (value - 25 >= 0)
+					for (i = 1; i < reminder; i++)
+					{
+						if (reminder - 25 >= 0)
 						{
-						count += 1;
-						reminder = value - 25;
+							count += 1;
+							reminder = value - 25;
 						}
+					}
 				}
-				printf("%d\n",sum);
-				return (0);
-			}
 		}
 	else
 	{
