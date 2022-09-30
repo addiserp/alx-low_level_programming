@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <ctype.h>
 /**
  *main -  prints the minimum number of coins 
  *@argc: value for no of arguments.
@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int i, sum = 0;
-	int reminder;
+	int reminder = 0, value = 0, count = 0;
 	if (argc == 2)
 		{
 			for (i = 1; i < argc; i++)
@@ -36,8 +36,8 @@ int main(int argc, char *argv[])
 			}
 		}
 	else
-		{
-			printf("Error\n");
-			return (1);
-		}
+	{
+		printf("Error\n");
+		return (1);
+	}
 }
