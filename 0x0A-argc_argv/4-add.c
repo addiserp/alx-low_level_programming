@@ -10,11 +10,11 @@
 
 int main(int argc, char *argv[])
 {
-	int i, result = 0;
+	int i, sum = 0;
 
 	if (argc >= 3)
 		{
-		for (i = 1; argv[i] < argc; i++)
+		for (i = 1; i < argc; i++)
 		{
 			if (isdigit(argv[i]))
 				sum += atoi(argv[i]);
