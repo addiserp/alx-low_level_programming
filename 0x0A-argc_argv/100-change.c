@@ -11,24 +11,24 @@
 
 int main(int argc, char *argv[])
 {
-	int i, sum = 0;
+	int i;
 	int reminder = 0, value = 0, count = 0;
 	if (argc == 2)
 		{
-				value = atoi(argv[i]);
+				value = atoi(argv[1]);
 				if (value < 0)
-				{
-				printf("%d\n",0);
-				return (0);
-				}
+					{
+					printf("%d\n", 0);
+					return (0);
+					}
 				else if (isdigit(*argv[i]))
 				{
-					for (i = 1; i < reminder; i++)
+					while (value >= 0)
 					{
-						if (reminder - 25 >= 0)
+						if (value - 25 >= 0)
 						{
 							count += 1;
-							reminder = value - 25;
+							value = value - 25;
 						}
 					}
 				}
