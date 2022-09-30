@@ -10,14 +10,26 @@
 
 int main(int argc, char *argv[])
 {
-	if (argc == 3)
+	int i, result = 0;
+
+	if (argc >= 3)
 		{
-			printf("%d\n", atoi(argv[1]) + atoi(argv[2]));
-			return (0);
+		for (i = 1; argv[i] < argc; i++)
+		{
+			if (isdigit(argv[i]))
+				sum += atoi(argv[i]);
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		printf("%d\n",sum);
+		return (0);
 		}
 	else
 		{
-			printf("Error\n");
-			return (1);
+			printf("%d\n", 0);
+			return (0);
 		}
 }
