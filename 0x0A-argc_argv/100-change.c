@@ -11,8 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
-	int reminder = 0, value = 0, count = 0;
+	int value = 0, count = 0;
 	if (argc == 2)
 		{
 				value = atoi(argv[1]);
