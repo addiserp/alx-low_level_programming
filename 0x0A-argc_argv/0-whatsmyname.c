@@ -2,6 +2,8 @@
 
 /**
  *main - prints its own name
+ *@argc: value for no of arguments.
+ *@argv: value for vector arguments.
  *Description: function program to display its own name
  *Return: is always 0
  */
