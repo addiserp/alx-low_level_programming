@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 		if (atoi(argv[1] < 0)
 			{
 			printf("%d\n", 0);
-			return (0);
+			return (1);
 			}
 		else if (isdigit(*argv[1]))
 		{
