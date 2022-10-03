@@ -14,10 +14,11 @@ char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
 	char *str = malloc(sizeof(char) * size);
+
 	if  (str == NULL)
 	{
 		printf("failed to allocate memory\n");
-		return ('\0');
+		return (NULL);
 	}
 	for (i = 0; i < size; i++)
 		*(str + i) = c;
