@@ -4,8 +4,8 @@
 
 /**
 * str_concat - concatnets two strings
-* @dest: destination
-* @src: source
+* @s1: destination
+* @s2: source
 * Return: destination
 */
 char *str_concat(char *s1, char *s2)
@@ -24,8 +24,7 @@ char *str_concat(char *s1, char *s2)
 		for (i = 0; i < len1; i++)
 		*(str + i) = *(s1 + i);
 
-		for (i = len1, j = 0; i < totlen; i++)
+		for (i = len1, j = 0; i < totlen; i++, j++)
 		*(str + i) = *(s2 + j);
-		
-		return (str);  
+		return (str);
 }
