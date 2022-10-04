@@ -12,7 +12,7 @@ char *_strdup(char *str)
 	int i = 0;
 	char *dest;
  
-dest = malloc(sizeof(char) * sizeof(str));
+dest = malloc(sizeof(char) * atoi(sizeof(str)));
 
 while (*(str + i) < sizeof(dest))
 {
