@@ -22,14 +22,23 @@ char *str_concat(char *s1, char *s2)
 		totlen = len1 + len2 + 1;
 		str = malloc(sizeof(char) * totlen);
 		for (i = 0; i < len1; i++)
-		*(str + i) = *(s1 + i);
-
-		for (i = len1, j = 0; i < totlen; i++, j++)
-		*(str + i) = *(s2 + j);
-		if (str == NULL)
+		{
+			if (*(str + i) == NULL)
 		{
 			printf("failed to allocate memory\n");
 			return (NULL);
+		}
+		*(str + i) = *(s1 + i);
+		}
+		
+		for (i = len1, j = 0; i < totlen; i++, j++)
+		{
+			if (*(str + i) == NULL)
+		{
+			printf("failed to allocate memory\n");
+			return (NULL);
+		}
+		*(str + i) = *(s2 + j);
 		}
 		return (str);
 }
