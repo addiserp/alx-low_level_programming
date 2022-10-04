@@ -8,7 +8,7 @@
 * @av: array vector
 * Return: newly creted dynamic array
 */
-int stringwordcount(char *s)
+int stringwordcount(char **s)
 {
     int i,words=0;
 	for(i=0;s[i];i++)  
