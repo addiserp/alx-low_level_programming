@@ -26,5 +26,10 @@ char *str_concat(char *s1, char *s2)
 
 		for (i = len1, j = 0; i < totlen; i++, j++)
 		*(str + i) = *(s2 + j);
+		if (str == NULL)
+		{
+			printf("failed to allocate memory\n");
+			return (NULL);
+		}
 		return (str);
 }
