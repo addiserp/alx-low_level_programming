@@ -12,12 +12,10 @@
 
 int **alloc_grid(int width, int height)
 {
-	 
-		if (width == 0 || height == 0)
-		{
-			printf("failed to allocate memory\n");
-			return (NULL);
-		}
-	 
-	return (0);
+if (width == 0 || height == 0)
+{
+printf("failed to allocate memory\n");
+return (NULL);
+}
+return (0);
 }
