@@ -24,16 +24,16 @@ if (gr == NULL)
 {
 return (NULL);
 }
-	for (i = 0; i< height; i++)
+	for (i = 0; i < height; i++)
 	{
 		gr[i] = malloc(sizeof(int) * width);
 		if (gr[i] == NULL)
 		{
 			for (i = i - 1; i >= 0; i--)
 			{
-			free (gr[i]);
+			free(gr[i]);
 			}
-			free (gr);
+			free(gr);
 			return (NULL);
 		}
 	}
@@ -42,5 +42,4 @@ return (NULL);
 			gr[i][j] = 0;
 			}
 			return (gr);
- 
 }
