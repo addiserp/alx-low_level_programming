@@ -12,7 +12,7 @@
 char **strtow(char *str)
 {
 	char **s;
-	int i, len = 0, len2 = 0;
+	int i, j, len = 0, len2 = 0;
 	
 	if (str == NULL || str[0] == '\0')
 		return (NULL);
@@ -24,7 +24,7 @@ char **strtow(char *str)
 		return (NULL);
 	for (i = 0; i < len; i++)
 		{
-			len2 = stringwordcount(s);
+			len2 = stringwordcount(**s);
 			s[i] = malloc(sizeof(char) * (len2 + 1));
 				if (s[i] == NULL)
 					{
