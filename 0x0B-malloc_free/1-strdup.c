@@ -9,12 +9,16 @@
  */
 char *_strdup(char *str)
 {
-	int i = 0;
+	int i = 0, size = 0;
 	char *dest;
- 
-dest = malloc(sizeof(char) * atoi(sizeof(str)));
 
-while (*(str + i) < sizeof(dest))
+while (*(str + size) != '\0')
+{
+size++;
+}
+dest = malloc(sizeof(char) * size + 1);
+
+while (i < size)
 {
 if (dest == NULL)
 {
