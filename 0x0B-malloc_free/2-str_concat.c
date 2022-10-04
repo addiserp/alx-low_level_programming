@@ -15,8 +15,8 @@ char *str_concat(char *s1, char *s2)
 
 		while (s1[i++])
 		len1++;
-
-		while (ss[i++])
+		i = 0;
+		while (s2[i++])
 		len2++;
 
 		totlen = len1 + len2 + 1;
