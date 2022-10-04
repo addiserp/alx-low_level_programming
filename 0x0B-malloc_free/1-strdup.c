@@ -1,5 +1,6 @@
 #include "main.h"
-
+#include <stdio.h>
+#include <stdlib.h>
 /**
  *_strdup -  str copy to dynamic arrays
  *@str: sources string array.
@@ -14,11 +15,11 @@ char *_strdup(char *str)
 	{
 		size++;
 	}
-	dest = malloc(sizeof(char) * size)
+	dest = malloc(sizeof(char) * size);
 	
-	while (*(src + i) != '\0')
+	while (*(str + i) != '\0')
 	{
-		*(dest + i) = *(src + i);
+		*(dest + i) = *(str + i);
 		i++;
 	}
 	*(dest + i) = '\0';
