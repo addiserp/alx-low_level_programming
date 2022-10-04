@@ -14,7 +14,7 @@ void free_grid(int **grid, int height)
 {
 if (height == 0 || **grid == 0)
 {
-printf("failed to allocate memory\n");
+printf(" ");
 }
 
 }
