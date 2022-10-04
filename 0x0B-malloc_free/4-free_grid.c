@@ -14,7 +14,8 @@ void free_grid(int **grid, int height)
 {
 if (height == 0 || **grid == 0)
 {
-printf("");
+free(grid);
+free(height);
 }
 
 }
