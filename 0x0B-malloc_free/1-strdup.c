@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *_strdup -  str copy to dynamic arrays
+ *_strdup -  str copy to dynamic arrays.
  *@str: sources string array.
- *Description: function  copy to dynamic arrays
- *Return: will return new created char array
+ *Description: function  copy to dynamic arrays.
+ *Return: will return new created char array.
  */
 char *_strdup(char *str)
 {
