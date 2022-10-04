@@ -16,5 +16,5 @@ if (height == 0 || **grid == 0)
 {
 free(grid);
 }
-return (NULL);
+return ();
 }
