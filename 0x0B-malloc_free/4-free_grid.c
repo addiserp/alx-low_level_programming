@@ -12,7 +12,7 @@
 
 void free_grid(int **grid, int height);
 {
-		if (height == NULL || **grid == NULL)
+		if (height == 0 || **grid == NULL)
 		{
 			printf("failed to allocate memory\n");
 			return (NULL);
