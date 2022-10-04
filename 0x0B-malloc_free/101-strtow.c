@@ -37,7 +37,7 @@ char **strtow(char *str)
 		return (NULL);
 	for (i = 0; i < len; i++)
 		{
-			len2 = stringwordcount(s);
+			len2 = stringwordcount(*s);
 			s[i] = malloc(sizeof(char) * (len2 + 1));
 				if (s[i] == NULL)
 					{
