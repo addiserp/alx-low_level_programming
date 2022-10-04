@@ -23,7 +23,7 @@ char *str_concat(char *s1, char *s2)
 		str = malloc(sizeof(char) * totlen);
 		for (i = 0; i < len1; i++)
 		{
-			if (*(str + i) == NULL)
+			if ((str + i) == NULL)
 		{
 			printf("failed to allocate memory\n");
 			return (NULL);
@@ -33,7 +33,7 @@ char *str_concat(char *s1, char *s2)
 		
 		for (i = len1, j = 0; i < totlen; i++, j++)
 		{
-			if (*(str + i) == NULL)
+			if ((str + i) == NULL)
 		{
 			printf("failed to allocate memory\n");
 			return (NULL);
