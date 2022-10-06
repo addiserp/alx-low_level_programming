@@ -6,10 +6,13 @@
 * strtow - splits a string into words
 * @s: to be countd
  *Description strtow : in a string.
- * stringwordcount - counts words in a string.
- *Description stringwordcount :  counts words in a string.
 * Return: newly creted dynamic array
 */
+/**
+ * stringwordcount - counts words in a string.
+ *Description stringwordcount :  counts words in a string.
+ * Return: size of countd word.
+ */
 int stringwordcount(char *s)
 {
 	int i, words = 0;
