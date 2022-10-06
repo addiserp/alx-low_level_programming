@@ -12,6 +12,13 @@
  *Return: will return new created char array
  */
 
+ /**
+ *strlength -  count a given string
+ *@s: 1st string array.
+ *Description - strlength: string size of arrays
+ *Return: will size of array
+ */
+
 int strlength(char *s)
 {
 int i = 0;
