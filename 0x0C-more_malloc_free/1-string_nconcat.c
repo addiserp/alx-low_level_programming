@@ -12,6 +12,13 @@
  *Return: will return new created char array
  */
 
+int strlength(char *s)
+{
+int i = 0;
+while (s[i] != '\0')
+i++;
+return i;
+}
  char *string_nconcat(char *s1, char *s2, unsigned int n)
  {
 	char *p;
@@ -21,10 +28,8 @@
 	s1 = "";
 	if (s2 == NULL)
 	s2 = "";
-	while (s1[x] != '\0')
-	x++;
-	while (s2[y] != '\0')
-	y++;
+	x = strlength(s1);
+	y = strlength(s2);
 	if (n > y)
 	n = y;
 	p = malloc((x + n + 1) * sizeof(char));
