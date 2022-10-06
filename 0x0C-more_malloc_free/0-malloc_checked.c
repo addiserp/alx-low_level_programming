@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <limits.h>
 
 /**
  *malloc_checked -  creates dynamic memory
@@ -12,7 +13,6 @@
 void *malloc_checked(unsigned int b)
 {
 if (malloc(b) == NULL)
-	return (98);
-else
-	return malloc(b);
+	exit (98);
+return malloc(b);
 }
