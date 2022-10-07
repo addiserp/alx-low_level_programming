@@ -4,7 +4,7 @@
 #include <limits.h>
 
 /**
- *_calloc -  creates dynamic memory 
+ *_calloc -  creates dynamic memory
  *@nmemb: 1st string array.
  *@size: size of string array.
  *Description - _calloc:  memory assign.
