@@ -4,10 +4,10 @@
 #include <limits.h>
 
 /**
- *_calloc -  creates dynamic memory 
- *@nmemb: 1st string array.
- *@size: size of string array.
- *Description - _calloc:  memory assign.
+ *array_range -  creates dynamic array range
+ *@min: 1st min string array.
+ *@max: 2nd max of string array.
+ *Description - array_range.
  *Return: will return new created char array
  */
 
