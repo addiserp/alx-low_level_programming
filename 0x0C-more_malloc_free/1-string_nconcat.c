@@ -4,17 +4,14 @@
 #include <limits.h>
 
 /**
+ *strlength - count a given string
  *string_nconcat -  creates dynamic memory and concatnets two string
  *@s1: 1st string array.
  *@s2: 2nd of string array.
+ *@s: 1st string array.
  *@n: size of string 2nd array.
  *Description: string_nconcat merge two arrays
  *Return: will return new created char array
- */
-
- /**
- *strlength -  count a given string
- *@s: 1st string array.
  *Description - strlength: string size of arrays
  *Return: will size of array
  */
@@ -25,7 +22,7 @@ int i = 0;
 
 while (s[i] != '\0')
 i++;
-return i;
+return (i);
 }
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -43,7 +40,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	p = malloc((x + n + 1) * sizeof(char));
 	if (p == NULL)
 	return (0);
-	for (i= 0; i < x; i++)
+	for (i = 0; i < x; i++)
 	p[i] = s1[i];
 	for ( ; i < x + n; i++)
 	p[i] = s2[i - x];
