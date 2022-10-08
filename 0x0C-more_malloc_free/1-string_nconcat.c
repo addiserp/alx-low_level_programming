@@ -10,10 +10,9 @@
  *@s2: 2nd of string array.
  *@s: 1st string array.
  *@n: size of string 2nd array.
- *Description: string_nconcat merge two arrays
+ *Description - string_nconcat: merge two arrays
  *Return: will return new created char array
  *Description - strlength: string size of arrays
- *Return: will size of array
  */
 
 int strlength(char *s)
