@@ -7,5 +7,5 @@
  */
 void main(void)
 {
-printf("%s", __FILENAME__);
+printf("%s", __FILE__);
 }
