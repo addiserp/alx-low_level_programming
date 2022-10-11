@@ -18,14 +18,14 @@ else if (d->name == NULL)
 {
 	printf("Name: (nil");
 }
-else if (d->age == NULL)
+else if (d->age == 0)
 {
 	printf("age: (nil");
 }
 else
 {
 	printf("Name: (%s", d->name);
-	printf("age: (%s", d->age);
+	printf("age: (%f", d->age);
 	printf("Owner: (%s", d->owner);
 }
 }
