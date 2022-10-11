@@ -4,6 +4,7 @@
 /**
  *dog -  creates a structure for dog object
  *Description - dog:  is struc type.
+ *Description - dog_t:  is struc type for typedef.
  *Return: void.
  */
 struct dog
@@ -13,7 +14,6 @@ struct dog
 	char *owner;
 };
 typedef struct dog dog_t;
- 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 #endif
