@@ -22,7 +22,7 @@ int main (int argc, char *argv[])
 	bytes = atoi(argv[1]);
 	if (bytes < 0)
 	{
-		prints("error\n");
+		printf("error\n");
 		exit(2);
 	}
 	arr = (char *)main;
@@ -33,7 +33,7 @@ int main (int argc, char *argv[])
 			printf("%02hhx\n", arr[i]);
 			break;
 		}
-		printf("%02hhx ", ar[i]);
+		printf("%02hhx ", arr[i]);
 	}
 	return (0);
 }
