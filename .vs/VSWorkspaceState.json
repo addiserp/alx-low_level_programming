@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\0x0D-preprocessor",
-    "\\0x0E-structures_typedef"
+    "\\0x0F-function_pointers"
   ],
-  "SelectedNode": "\\0x0D-preprocessor\\4-sum.h",
+  "SelectedNode": "\\0x0F-function_pointers\\0-print_name.c",
   "PreviewInSolutionExplorer": false
 }
