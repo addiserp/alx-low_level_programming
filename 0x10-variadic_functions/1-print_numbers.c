@@ -1,9 +1,10 @@
 #include "variadic_functions.h"
 
 /**
- *sum_them_all - a function that returns the sum of all its parameters.
+ *print_numbers - a function that returns the sum of all its parameters.
  *@n: The size of parameters.
- *Description - sum_them_all: a function that sum of all its parameters.
+ *@separator: The separator of parameters.
+ *Description - print_numbers: a function that sum of all its parameters.
  *Return: sum of result.
  */
 
@@ -17,7 +18,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 	if (*separator != NULL)
-		printf("%d %c\n",va_arg(ap, int),separator);
+		printf("%d %c\n", va_arg(ap, int), separator);
 	}
 	va_end(ap);
 }
