@@ -29,13 +29,13 @@ void print_all(const char * const format, ...)
 		switch (format[i])
 		{
 			case 'c':
-				printf("%c", var_arg(ap, int)), x = 1;
+				printf("%c", va_arg(ap, int)), x = 1;
 			case 'i':
-				printf("%d", var_arg(ap, int)), x = 1;
+				printf("%d", va_arg(ap, int)), x = 1;
 			case 'f':
-				printf("%f", var_arg(ap, double)), x = 1;
+				printf("%f", va_arg(ap, double)), x = 1;
 			case 's':
-				s = var_arg(ap, char *), x = 1;
+				s = va_arg(ap, char *), x = 1;
 					if (!s)
 					{
 						printf("nil");
