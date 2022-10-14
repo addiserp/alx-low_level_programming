@@ -3,8 +3,8 @@
 /**
  *sum_them_all - a function that returns the sum of all its parameters.
  *@n: The size of parameters.
- *Description - sum_them_all: a function that sum of all its parameters.
- *Return: sum of result.
+ *Description - sum_them_all: a function that sums all its parameters.
+ *return: sum of result.
  */
 
 int sum_them_all(const unsigned int n, ...)

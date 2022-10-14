@@ -8,21 +8,43 @@
 
 void print_all(const char * const format, ...)
 {
-op_t ops[] = {{"c",char}, {"i",int}, {"f",float}, {"s",char *}, {NULL,NULL}};
-const char type = ops[format].op;
-	
+	const char types[] = "cifs";
+	char *s;
+	unsigned int i = 0, j = 0, x = 0;
 	va_list ap;
-	va_start(ap, n);
 
-	int i = 0;
-
-	while (i < n)
+	va_start(ap, format);
+	while (format && format[i])
 	{
-		if (va_arg(ap, type) != NULL)
-			printf("%s\n", va_arg(ap, type));
-		else
-			printf("(nil\n)");	
-		i++;
+		j = 0;
+		while (types[j])
+		{
+			if (format[i] == types[j] && x)
+				{
+					printf(", ");
+					break;
+				}
+				j++;
+		}
+		switch (format[i])
+		{
+			case 'c':
+				printf("%c", var_arg(ap, int)), x = 1;
+			case 'i':
+				printf("%d", var_arg(ap, int)), x = 1;
+			case 'f':
+				printf("%f", var_arg(ap, double)), x = 1;
+			case 's':
+				s = var_arg(ap, char *), x = 1;
+					if (!s)
+					{
+						printf("nil");
+						break;
+					}
+				printf("%s", s);
+				break;
+		} i++;
 	}
+	printf("\n");
 	va_end(ap);
 }
