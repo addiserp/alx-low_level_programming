@@ -1,11 +1,9 @@
 #include "variadic_functions.h"
-
 /**
  *print_all - a function that all its parameters.
  *@format: The type of parameters.
  *Description - print_numbers: a function that prints all its parameters.
  */
-
 void print_all(const char * const format, ...)
 {
 	const char types[] = "cifs";
@@ -16,15 +14,13 @@ void print_all(const char * const format, ...)
 	va_start(ap, format);
 	while (format && format[i])
 	{
-		j = 0;
 		while (types[j])
 		{
 		if (format[i] == types[j] && x)
 			{
 				printf(", ");
 				break;
-			}
-			j++;
+			} j++;
 		}
 		switch (format[i])
 		{
