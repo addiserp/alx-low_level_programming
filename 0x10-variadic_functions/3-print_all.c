@@ -19,12 +19,12 @@ void print_all(const char * const format, ...)
 		j = 0;
 		while (types[j])
 		{
-			if (format[i] == types[j] && x)
-				{
-					printf(", ");
-					break;
-				}
-				j++;
+		if (format[i] == types[j] && x)
+			{
+				printf(", ");
+				break;
+			}
+			j++;
 		}
 		switch (format[i])
 		{
