@@ -30,10 +30,13 @@ void print_all(const char * const format, ...)
 		{
 			case 'c':
 				printf("%c", va_arg(ap, int)), x = 1;
+				break;
 			case 'i':
 				printf("%d", va_arg(ap, int)), x = 1;
+				break;
 			case 'f':
 				printf("%f", va_arg(ap, double)), x = 1;
+				break;
 			case 's':
 				s = va_arg(ap, char *), x = 1;
 					if (!s)
