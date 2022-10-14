@@ -17,14 +17,15 @@ void print_all(const char * const format, ...)
 		while (types[j])
 		{
 		if (format[i] == types[j] && x)
-			{
-				printf(", ");
-				break;
-			} j++;
+		{
+			printf(", ");
+			break;
+		} j++;
 		}
 		switch (format[i])
 		{
-			case 'c': printf("%c", va_arg(ap, int)), x = 1;
+			case 'c':
+				printf("%c", va_arg(ap, int)), x = 1;
 				break;
 			case 'i':
 				printf("%d", va_arg(ap, int)), x = 1;
