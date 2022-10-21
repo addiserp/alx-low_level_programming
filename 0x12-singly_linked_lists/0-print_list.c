@@ -18,6 +18,5 @@ printf("[%d] %s\n", h->len, h->str);
 n++;
 h = h->next;
 }
-
 return (n);
 }
