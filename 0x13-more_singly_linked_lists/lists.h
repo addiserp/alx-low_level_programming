@@ -1,20 +1,23 @@
-#include "lists.h"
-#include <stdio.h>
+#ifndef LISTS_H
+#define LISTS_H
 #include <stdlib.h>
+#include <stdio.h>
+#include <stdarg.h>
+#include <string.h>
 /**
- * print_listint - prints elements of a list.
- * @h: parameter head of a list.
- * Return: no of nodes.
+ * struct listint_s - singly linked list
+ * @n: integer
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ *
  */
-size_t print_listint(const listint_t* h)
+typedef struct listint_s
 {
-	size_t n = 0;
+	int n;
+	struct listint_s* next;
+} listint_t;
 
-	while (h != NULL)
-	{
-		printf("%d\n", h->n);
-		h = h->next;
-		n++;
-	}
-return (n);
-}
+size_t print_listint(const listint_t* h);
+
+#endif
