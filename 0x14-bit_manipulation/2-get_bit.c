@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- *print_binary - print binary values.
- *@b: binary parameter.
- *Description - print_binary: print binary to base 10.
+ *get_bit - get binary on specific index.
+ *@n: binary parameter.
+ *@index: binary parameter.
+ *Description - get_bit: get binary on specific index.
  *Return: void.
  */
 int get_bit(unsigned long int n, unsigned int index)
