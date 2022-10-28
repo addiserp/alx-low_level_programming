@@ -6,7 +6,7 @@
  *Description - binary_to_uint:  formual form binary to base 10.
  *Return: base 10 unsigned int.
  */
-unsigned int binary_to_uint(const char* b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int result = 0;
 	int i;
