@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\0x0F-function_pointers",
     "\\0x15-file_io"
   ],
-  "SelectedNode": "\\0x0F-function_pointers\\0-print_name.c",
+  "SelectedNode": "\\0x15-file_io\\1-create_file.c",
   "PreviewInSolutionExplorer": false
 }
