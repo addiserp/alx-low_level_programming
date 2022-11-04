@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h" 
 
 /**
  *read_textfile -  Reads and prints it to the POSIX standard output.
@@ -7,7 +7,7 @@
  *Description - read_textfile: a function that reads a text file and prints.
  *Return: null if it failes.
  */
-ssize_t read_textfile(const char* filename, size_t letters);
+ssize_t read_textfile(const char* filename, size_t letters)
 {
 	ssize_t o, r, w;
 	char *buf;
