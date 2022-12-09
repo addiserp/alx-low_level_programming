@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
- *print_list - a function that PRINTS double linked list.
+ *print_dlistint - a function that PRINTS double linked list.
  *@h: The type of parameters.
- *Description - print_list: a function that prints all its parameters.
+ *Description - print_dlistint: a function that prints all its parameters.
  *Return: - returns node type size_t.
  */
 
