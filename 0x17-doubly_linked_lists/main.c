@@ -1,11 +1,8 @@
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
 #include "lists.h"
 
 /**
  * main - check the code
- *
+ *GCC
  * Return: Always EXIT_SUCCESS.
  */
 int main(void)
