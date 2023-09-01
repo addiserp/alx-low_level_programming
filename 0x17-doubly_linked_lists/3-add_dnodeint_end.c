@@ -2,7 +2,7 @@
 
 /**
  * add_dnodeint_end - a function adds node at the end of a list.
- * 
+ *
  * @head: A pointer to head of list.
  * @n: A data to be added.
  *
