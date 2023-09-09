@@ -5,8 +5,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-shash_table_t *shash_table_create(unsigned long int size);
-unsigned long int hash_djb2(const unsigned char *str);
 /**
  * struct hash_node_s - The node of a hash table
  *
@@ -87,5 +85,7 @@ typedef struct shash_table_s
 	shash_node_t *stail;
 } shash_table_t;
 
+shash_table_t *shash_table_create(unsigned long int size);
+unsigned long int hash_djb2(const unsigned char *str);
 
 #endif /* HASH_TABLES_H */
