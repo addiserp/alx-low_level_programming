@@ -3,7 +3,7 @@
 /**
  * key_index - it will gets the index at where a key/value pair.
  *
- * @key: Key to get the index of.
+ * @key: Key to get the index of it.
  * @size: Size of the array of the hash table.
  *
  * Return: Index key.
