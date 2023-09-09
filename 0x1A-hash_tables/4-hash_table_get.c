@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 
 /**
- * hash_table_get - the value associated with It retrieves 
+ * hash_table_get - the value associated with It retrieves
  *
  * @ht: Pointers to the hash table.
  * @key: Key to get the value of.
