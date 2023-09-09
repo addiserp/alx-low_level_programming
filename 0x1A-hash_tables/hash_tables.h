@@ -98,4 +98,14 @@ void stable_print(const shash_table_t *ht);
 void stable_print_rev(const shash_table_t *ht);
 void stable_delete(shash_table_t *ht);
 int stable_set(shash_table_t *ht, const char *key, const char *value);
+shash_table_t *shash_table_create(unsigned long int size);
+shash_node_t *set_spair(const char *key, const char *value);
+shash_node_t *set_spair_only(shash_table_t *ht, const char *key,
+			     const char *value, unsigned long int index);
+int update_value(shash_node_t *node, const char *value);
+shash_node_t *set_spair_front(shash_table_t *ht, const char *key,
+			     const char *value, unsigned long int index);
+void stable_print(const shash_table_t *ht);
+void stable_print_rev(const shash_table_t *ht);
+void stable_delete(shash_table_t *ht);
 #endif /* HASH_TABLES_H */
