@@ -93,4 +93,9 @@ unsigned long int key_index(const unsigned char *key, unsigned long int size);
 unsigned long int hash_djb2(const unsigned char *str);
 shash_table_t *shash_table_create(unsigned long int size);
 
+/** Bonus functions*/
+void stable_print(const shash_table_t *ht);
+void stable_print_rev(const shash_table_t *ht);
+void stable_delete(shash_table_t *ht);
+int stable_set(shash_table_t *ht, const char *key, const char *value);
 #endif /* HASH_TABLES_H */
