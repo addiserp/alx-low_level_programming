@@ -1,9 +1,9 @@
 CC = gcc
+CFLAGS = -Wall -Werror -Wextra -pedantic
 SRC = school.c main.c
 OBJ = $(SRC:%.c=%.o)
 NAME = school
 RM = rm -f
-CFLAGS = -Wall -Werror -Wextra -pedantic
 %.o: %.c m.h
 
 	$(CC) -c -o $@ $<
